@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 :root {
   --primary-100: #003092;
   --primary-200: #4D55CC;
+  --primary-300: #616BFF;
 
   --secondary-100: #E5BB00;
 
@@ -40,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   --black: #000;
 
   --grey-500: #9C9DB3;
+  --grey-800: #DADADA;
 }
 
 ::-moz-selection {
@@ -72,6 +74,15 @@ body {
 
 .section {
   padding: 100px 0px;
+  scroll-margin-top: -80px;
+}
+.section__title {
+  margin-bottom: 60px;
+
+  font-family: 'Oswald', sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  color: var(--black);
 }
 
 /* ========== Content ========== */
@@ -86,7 +97,8 @@ body {
   background-color: var(--white);
 }
 .header .container {
-  padding: 30px 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
   display: flex;
   align-items: center;
@@ -271,4 +283,87 @@ body {
   width: var(--size-active);
   height: var(--size-active);
   border-radius: var(--size-active);
+}
+
+.projects {
+  background-color: var(--white);
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  padding: 20px 20px 40px 20px;
+  border-radius: 30px;
+
+  background-color: var(--white);
+  box-shadow: 0px 0px 8px 0px var(--primary-300);
+
+  display: flex;
+  flex-direction: column;
+}
+.project-card__image {
+  width: 100%;
+  aspect-ratio: 31 / 16;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--grey-800);
+  border-radius: 10px;
+
+  position: relative;
+}
+.project-card__image::after {
+  content: '';
+  display: block;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 50%;
+
+  background: linear-gradient(to top, #FFFF 0%, #FFFB 50%, #FFF0 100%);
+}
+.project-card__image img {
+  display: block;
+  height: 100%;
+  min-width: 100%;
+}
+.project-card__body {
+  flex: 1 1 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+.project-card__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--black);
+}
+.project-card__text {
+  margin-top: 30px;
+  flex: 1 1 auto;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: var(--black);
+}
+.project-card__links {
+  margin-top: 30px;
+  
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.project-card__link {
+  user-select: none;
+  cursor: pointer;
 }
