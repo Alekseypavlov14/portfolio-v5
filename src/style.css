@@ -355,9 +355,16 @@ body {
   font-size: 18px;
   color: var(--black);
 }
-.project-card__links {
+.project-card__footer {
   margin-top: 30px;
   
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.project-card__links {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -366,4 +373,9 @@ body {
 .project-card__link {
   user-select: none;
   cursor: pointer;
+}
+.project-card__date {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: var(--black);
 }
