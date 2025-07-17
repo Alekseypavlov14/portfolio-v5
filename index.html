@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oleksii Pavlov | Frontend Developer</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <a href="/" class="logo">
+          <img src="./img/logo.svg" alt="">
+        </a>
+
+        <nav class="header-nav">
+          <a href="#" class="header-nav__link">Projects</a>
+          <a href="#" class="header-nav__link">Contacts</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main section">
+      <div class="container">
+        <div data-slider class="slider">
+          <div class="slider__content">
+            <div class="slider__wrapper">
+              <div data-slider-slides class="slider__slides">
+                <div data-slider-slide class="slider-slide slider-slide--active">
+                  <div class="slider-slide__title">Hi, I'm Alex!</div>
+                  <div class="slider-slide__text">
+                    I specialize in front-end development using modern tools like React, TypeScript, Vite, and Next.js.
+                    With several years of commercial experience, I build fast, responsive, and user-friendly web
+                    applications.
+                  </div>
+                </div>
+
+                <div data-slider-slide class="slider-slide">
+                  <div class="slider-slide__title">My Education</div>
+                  <div class="slider-slide__text">
+                    I graduated from a Ukrainian high school and am currently studying at Transilvania University
+                    of Brașov in Romania, continuing to grow both academically and professionally in the tech field.
+                  </div>
+                </div>
+
+                <div data-slider-slide class="slider-slide">
+                  <div class="slider-slide__title">Hobbies!</div>
+                  <div class="slider-slide__text">
+                    Outside of coding, I volunteer in social organizations and enjoy playing football and volleyball.
+                    I’m always looking for ways to stay active, connect with others, and contribute to my community.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider__nav">
+              <div data-slider-link class="slider__link slider__link--active"></div>
+              <div data-slider-link class="slider__link"></div>
+              <div data-slider-link class="slider__link"></div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div data-slider-image class="gallery__image gallery__image--active">
+              <img src="./img/main/avatar-1.png" alt="">
+            </div>
+            <div data-slider-image class=" gallery__image gallery__image--next">
+              <img src="./img/main/avatar-2.png" alt="">
+            </div>
+            <div data-slider-image class=" gallery__image gallery__image--previous">
+              <img src="./img/main/avatar-3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
