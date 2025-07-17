@@ -379,3 +379,27 @@ body {
   font-size: 14px;
   color: var(--black);
 }
+
+.footer {
+  padding: 50px 0px;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.copyright {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: var(--white);
+}
+.contact-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.contact-icon {
+  cursor: pointer;
+}
