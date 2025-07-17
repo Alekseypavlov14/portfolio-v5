@@ -27,11 +27,11 @@ export function initializeSlider() {
     const images = Array.from(slider.querySelectorAll(sliderImageSelector))
     if (!slides.length || !links.length || !images.length) return
 
-    // current index
     let index = 0
+    let automaticSlideChangeInterval = 0
 
-    // automatic animation
-    let automaticSlideChangeInterval = initializeAutomaticAnimation()
+    // automatic animation interval
+    automaticSlideChangeInterval = initializeAutomaticAnimation()
     let isAutomaticIntervalActive = true
 
     // handle window blurs and focuses
@@ -42,13 +42,6 @@ export function initializeSlider() {
     window.addEventListener('blur', () => {
       clearInterval(automaticSlideChangeInterval)
     })
-    
-    function initializeAutomaticAnimation() {
-      return setInterval(() => {
-        index = getNextIndex(index, slides.length)
-        updateActiveSlide(index)
-      }, slideChangeInterval)
-    }
 
     // handlers
     links.forEach((link, index) => {
@@ -68,6 +61,15 @@ export function initializeSlider() {
       })
     })
 
+    // handler callbacks
+    function initializeAutomaticAnimation() {
+      if (automaticSlideChangeInterval) clearInterval(automaticSlideChangeInterval)
+
+      return setInterval(() => {
+        index = getNextIndex(index, slides.length)
+        updateActiveSlide(index)
+      }, slideChangeInterval)
+    }
     function updateActiveSlide(index: number) {
       // update slider nav links
       links.forEach(link => link.classList.remove(sliderLinkActiveCSSClass))
@@ -86,7 +88,7 @@ export function initializeSlider() {
       // update slides
       slides.forEach(slide => slide.classList.remove(sliderSlideActiveCSSClass))
       slides[index].classList.add(sliderSlideActiveCSSClass)
-    }
+    } 
   })
 
   // utils
