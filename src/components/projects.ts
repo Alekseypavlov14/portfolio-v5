@@ -32,6 +32,7 @@ function renderProjectCard(project: Project) {
     <div class="project-card">
       <div class="project-card__image">
         <img src="${project.imageSource}" alt="">
+        <div class="project-card__shadow"></div>
       </div>
       <div class="project-card__body">
         <div class="project-card__title">${project.name}</div>
