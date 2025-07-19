@@ -1,0 +1,189 @@
+[
+  {
+    "id": "1739187693645",
+    "name": "QR Coder",
+    "description": "This website offers a free, unlimited QR Code generator that ensures permanent access to the generated content. Unlike other online tools that impose time limits on QR Code validity, this platform provides a reliable, no-fee solution where users can create QR Codes that stay active indefinitely. Designed for simplicity and accessibility, the website prioritizes an effortless user experience while maintaining the accessibility of data. This project showcases my ability to address real-world problems by providing practical, user-friendly solutions.",
+    "link": "https://qr-coder-gen.netlify.app",
+    "repository": "https://github.com/Alekseypavlov14/qr-codes-landing",
+    "imageSource": null,
+    "typeId": "1709150298980",
+    "technologiesIds": ["1709150561269", "1709149960659", "1709150053689"],
+    "date": 1739187342412
+  },
+  {
+    "id": "1739187896396",
+    "name": "@oleksii-pavlov/qr-codes",
+    "description": "This package encapsulates the core logic for generating and managing QR Codes, offering an efficient and customizable solution for developers. It provides the ability to create QR Codes with permanent access to their content, free from temporary expiration or fees. The package allows for easy integration into web applications, supporting various data types and customizations, including error correction levels, size, and encoding formats. With a focus on simplicity and flexibility, it streamlines the process of generating QR Codes and ensures seamless handling of QR-related operations. Ideal for projects that require reliable, long-term QR Code functionality without relying on external services.",
+    "link": "https://www.npmjs.com/package/@oleksii-pavlov/qr-codes",
+    "repository": "https://github.com/Alekseypavlov14/qr-codes",
+    "imageSource": null,
+    "typeId": "1709150331742",
+    "technologiesIds": ["1709150186050"],
+    "date": 1738540800000
+  },
+  {
+    "id": "1739191519885",
+    "name": "PARQ Menu",
+    "description": "PARQ Menu is a website for the restaurant. You can see different dishes grouped for categories. There are helpful search bar and slider to go through photos of dishes. Also, you can scroll categories with nice horizontal scroll. See more amazing implemented components on the website!",
+    "link": "https://parq.world/menu",
+    "repository": "https://github.com/Alekseypavlov14/parq",
+    "imageSource": null,
+    "typeId": "1709150298980",
+    "technologiesIds": ["1709150561269", "1709150034507", "1709149960659", "1709150053689"],
+    "date": 1729728000000
+  },
+  {
+    "id": "1710885600000",
+    "name": "SMM Magnet",
+    "description": "SMM Magnet is a website that proposes different kinds of promotion in social networks. Several interesting elements are made by me like self-typing text and global color dynamic scheme",
+    "link": "https://smm-master.netlify.app/",
+    "repository": null,
+    "imageSource": null,
+    "typeId": "1709150298980",
+    "technologiesIds": ["1709150034507", "1709149960659", "1709150053689"],
+    "date": 1710885600000
+  },
+  {
+    "id": "1711041426688",
+    "name": "Power Broker",
+    "description": "Cross-server platform for trading. Landing includes a lot of awesome elements and animations like float menu, slider with non-standard swiping, horizontal scroll effect, API Integration animation and many others",
+    "link": "https://power-broker.netlify.app",
+    "repository": null,
+    "imageSource": null,
+    "typeId": "1709150298980",
+    "technologiesIds": ["1709150034507", "1709149960659", "1709150053689"],
+    "date": 1710626400000
+  },
+  {
+    "id": "1706652000000",
+    "name": "Planfomo - Forex Crypto",
+    "description": "Planfomo - Forex Crypto & Stock Trading is a platform for traders made by a professional who trades since 2015. He has already earned $20.000.000 with crypto",
+    "link": "https://planfomo.netlify.app",
+    "repository": "https://github.com/Alekseypavlov14/planfomo",
+    "imageSource": null,
+    "typeId": "1709150298980",
+    "technologiesIds": ["1709150034507", "1709149960659", "1709150053689"],
+    "date": 1706652000000
+  },
+  {
+    "id": "1712555522248",
+    "name": "@oleksii-pavlov/desirable",
+    "description": "Desirable is a new state management tool inspired by Zustand and Redux. It has several advantages in comparison with Zustand - it is framework-agnostic, store and reducers are defined separately what is better for readability, and it generates an object instead of hook so it can be used outside of React component if needed (react hooks are also provided so can decide whether to use or not). Desirable provides react hooks to use state in a component so you can use your state wherever you need. On the other hand, it has all the benefits of Zustand like multistores, simple logic of store updating and so on. Also, Desirable has awesome api to subscribe on specific slices of the store to prevent performance problems.",
+    "link": "https://www.npmjs.com/package/@oleksii-pavlov/desirable",
+    "repository": "https://github.com/Alekseypavlov14/desirable",
+    "imageSource": null,
+    "typeId": "1709150331742",
+    "technologiesIds": ["1709150186050"],
+    "date": 1697328000000
+  },
+  {
+    "id": "1712554524938",
+    "name": "@oleksii-pavlov/deep-merge",
+    "description": "Deep merge is a set of utils to work with object and handle problems related to their nesting. It has utils to clone, compare, merge and update objects with creating completely new objects with the same structure recursively or mutating target object if needed. The library is highly useful, I use it in a lot of projects and it works excellent.",
+    "link": "https://www.npmjs.com/package/@oleksii-pavlov/deep-merge",
+    "repository": "https://github.com/Alekseypavlov14/deep-merge",
+    "imageSource": null,
+    "typeId": "1709150331742",
+    "technologiesIds": ["1709150186050"],
+    "date": 1697068800000
+  },
+  {
+    "id": "1697460029732",
+    "name": "TopRate - Traders tool",
+    "description": "TopRate - BotRate Community is your partner in financial analytics and asset management automation. BotRate Community offer traders in MetaTrader, cTrader, Binance etc. receive success fee or subscriptions fee for your signals.",
+    "link": "https://botrate.ddnsgeek.com",
+    "repository": "https://github.com/udmurt2/br-web",
+    "imageSource": null,
+    "typeId": "1709150298980",
+    "technologiesIds": ["1709150034507", "1709149960659", "1709150053689", "1709150013406", "1709150214367"],
+    "date": 1695502800000
+  },
+  {
+    "id": "1683299196217",
+    "name": "Portfolio (old version)",
+    "description": "This site is created to show and collect my projects and sort them by stacks which are used in them. Also, there is an article about me and my avatar. Simple landing that I use to show my projects",
+    "link": "https://oleksii-pavlov.netlify.app",
+    "repository": "https://github.com/Alekseypavlov14/new-portfolio-site",
+    "imageSource": null,
+    "typeId": "1709150298980",
+    "technologiesIds": ["1709150096936", "1709150186050", "1709150243865", "1709149992081", "1709149960659", "1709150114963", "1709150561269"],
+    "date": 1681419600000
+  },
+  {
+    "id": "1683299148592",
+    "name": "Papa Grill Landing",
+    "description": "This site is a landing of the company. It helps to open and manage restaurants, allows you to use their name for having clients. Generally, you get restaurant and part of profit, they get new restaurant to the collection and also a part of profit",
+    "link": "https://papa-grill.netlify.app",
+    "repository": "https://github.com/Alekseypavlov14/papa-grill",
+    "imageSource": null,
+    "typeId": "1709150298980",
+    "technologiesIds": ["1709150034507", "1709149960659", "1709150053689"],
+    "date": 1661461200000
+  },
+  {
+    "id": "1679062150490",
+    "name": "CATTIA Business Center",
+    "description": "The site is for CATTIA Business Canter in Brasov, Romania. I used swiper.js to create a carousel of the photos. The practice of standard site developing",
+    "link": "https://cattia-business-center.netlify.app/",
+    "repository": "https://www.github.com/Alekseypavlov14/cattia-business-center",
+    "imageSource": null,
+    "typeId": "1709150298980",
+    "technologiesIds": ["1709150096936", "1709150143576", "1709150186050", "1709149960659"],
+    "date": 1658696400000
+  },
+  {
+    "id": "1679061905205",
+    "name": "UMR Group App",
+    "description": "The web application is for UMR Business Group. I realized the form with counting the price which depends on options, the date and the time. Also, there is a possibility of adding feedbacks.",
+    "link": "http://umr-group.netlify.app",
+    "repository": "https://www.github.com/Alekseypavlov14/umr-group-next",
+    "imageSource": null,
+    "typeId": "1709150298980",
+    "technologiesIds": ["1709150071997", "1709150143576", "1709150186050", "1709149960659"],
+    "date": 1657141200000
+  },
+  {
+    "id": "1679062110450",
+    "name": "Go Corona",
+    "description": "The adaptive website about coronavirus. In site, I created beautiful menu burger",
+    "link": "https://health-corona-go.netlify.app",
+    "repository": "https://www.github.com/Alekseypavlov14/go-corona",
+    "imageSource": null,
+    "typeId": "1709150298980",
+    "technologiesIds": ["1709150034507", "1709150162337", "1709150214367"],
+    "date": 1654981200000
+  },
+  {
+    "id": "1679062063906",
+    "name": "DSI Technology",
+    "description": "It is an example of basic adaptive html layout. Gulp and SASS were used. My first application where Gulp was used",
+    "link": "http://dsi-it.netlify.app",
+    "repository": "https://www.github.com/Alekseypavlov14/html-layout",
+    "imageSource": null,
+    "typeId": "1709150298980",
+    "technologiesIds": ["1709150034507", "1709150162337", "1709150013406"],
+    "date": 1653512400000
+  },
+  {
+    "id": "1679061993748",
+    "name": "Responsive site",
+    "description": "Responsive HTML layout portfolio of a man. Here I used Webpack to compile SASS.",
+    "link": "https://responsive-html-layout.netlify.app",
+    "repository": "https://github.com/Alekseypavlov14/responsive-html-layout/",
+    "imageSource": null,
+    "typeId": "1709150298980",
+    "technologiesIds": ["1709150214367", "1709150162337", "1709150034507"],
+    "date": 1646172000000
+  },
+  {
+    "id": "1679062040179",
+    "name": "A+ Studio",
+    "description": "The adaptive site design. It was written to practice developing sites without UI libraries",
+    "link": "https://a-studio-adaptive.netlify.app/",
+    "repository": "https://www.github.com/Alekseypavlov14/A-Studio-adaptive-",
+    "imageSource": null,
+    "typeId": "1709150298980",
+    "technologiesIds": ["1709150034507", "1709149960659", "1709150053689"],
+    "date": 1646085600000
+  }
+]
