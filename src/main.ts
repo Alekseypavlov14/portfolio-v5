@@ -1,10 +1,8 @@
-import { initializeSidebarNavLinks } from './components/sidebar'
-import { initializeBurgerButton } from './components/burger-button'
+import { initializeSidebar } from './components/sidebar'
 import { initializeSlider } from './components/slider'
 import { displayProjects } from './components/projects'
 import './style.css'
 
-initializeSidebarNavLinks()
-initializeBurgerButton()
+initializeSidebar()
 initializeSlider()
 displayProjects()

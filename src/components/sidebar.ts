@@ -1,16 +1,28 @@
-export function initializeSidebarNavLinks() {
+export function initializeSidebar() {
+  const burgerButton = document.getElementById('burger-button')
   const sidebar = document.getElementById('sidebar')
-  const sidebarOpenedClass = 'opened'
-  if (!sidebar) return
+  if (!burgerButton || !sidebar) return
   
   const links = Array.from(document.querySelectorAll('[data-sidebar-nav-link]'))
-
+  
+  // css classes
+  const burgerButtonActiveClass = 'active'
+  const sidebarOpenedClass = 'opened'
   const bodyFixedClass = 'fixed'
 
+  // handlers
+  burgerButton.addEventListener('click', toggleSidebar)
+
   links.forEach(link => {
-    link.addEventListener('click', () => {
-      sidebar.classList.remove(sidebarOpenedClass)
-      document.body.classList.remove(bodyFixedClass)
-    })
+    link.addEventListener('click', toggleSidebar)
   })
+
+  // utils
+  function toggleSidebar() {
+    if (!burgerButton || !sidebar) return
+
+    burgerButton.classList.toggle(burgerButtonActiveClass)
+    sidebar.classList.toggle(sidebarOpenedClass)
+    document.body.classList.toggle(bodyFixedClass)
+  }
 }
