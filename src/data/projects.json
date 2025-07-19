@@ -121,28 +121,6 @@
     "date": 1697068800000
   },
   {
-    "id": "1697460029732",
-    "name": "TopRate - Traders tool",
-    "description": "TopRate - BotRate Community is your partner in financial analytics and asset management automation. BotRate Community offer traders in MetaTrader, cTrader, Binance etc. receive success fee or subscriptions fee for your signals.",
-    "link": "https://botrate.ddnsgeek.com",
-    "repository": "https://github.com/udmurt2/br-web",
-    "imageSource": "./projects/fallback.png",
-    "typeId": "1709150298980",
-    "technologiesIds": ["1709150034507", "1709149960659", "1709150053689", "1709150013406", "1709150214367"],
-    "date": 1695502800000
-  },
-  {
-    "id": "1683299196217",
-    "name": "Portfolio (old version)",
-    "description": "This site is created to show and collect my projects and sort them by stacks which are used in them. Also, there is an article about me and my avatar. Simple landing that I use to show my projects",
-    "link": "https://oleksii-pavlov.netlify.app",
-    "repository": "https://github.com/Alekseypavlov14/new-portfolio-site",
-    "imageSource": "./projects/fallback.png",
-    "typeId": "1709150298980",
-    "technologiesIds": ["1709150096936", "1709150186050", "1709150243865", "1709149992081", "1709149960659", "1709150114963", "1709150561269"],
-    "date": 1681419600000
-  },
-  {
     "id": "1683299148592",
     "name": "Papa Grill Landing",
     "description": "This site is a landing of the company. It helps to open and manage restaurants, allows you to use their name for having clients. Generally, you get restaurant and part of profit, they get new restaurant to the collection and also a part of profit",
@@ -185,28 +163,6 @@
     "typeId": "1709150298980",
     "technologiesIds": ["1709150034507", "1709150162337", "1709150214367"],
     "date": 1654981200000
-  },
-  {
-    "id": "1679062063906",
-    "name": "DSI Technology",
-    "description": "It is an example of basic adaptive html layout. Gulp and SASS were used. My first application where Gulp was used",
-    "link": "http://dsi-it.netlify.app",
-    "repository": "https://www.github.com/Alekseypavlov14/html-layout",
-    "imageSource": "./projects/fallback.png",
-    "typeId": "1709150298980",
-    "technologiesIds": ["1709150034507", "1709150162337", "1709150013406"],
-    "date": 1653512400000
-  },
-  {
-    "id": "1679061993748",
-    "name": "Responsive site",
-    "description": "Responsive HTML layout portfolio of a man. Here I used Webpack to compile SASS.",
-    "link": "https://responsive-html-layout.netlify.app",
-    "repository": "https://github.com/Alekseypavlov14/responsive-html-layout/",
-    "imageSource": "./projects/fallback.png",
-    "typeId": "1709150298980",
-    "technologiesIds": ["1709150214367", "1709150162337", "1709150034507"],
-    "date": 1646172000000
   },
   {
     "id": "1679062040179",
