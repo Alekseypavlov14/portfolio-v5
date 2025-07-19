@@ -11,6 +11,28 @@
     "date": 1752267600000
   },
   {
+    "id": "1748984400000",
+    "name": "English Online School",
+    "description": "Web platform for an online school \"EA School\". A lot of engaging exercises are accessible for the students. Beautiful video players, games and a lot of other widgets are implemented.",
+    "link": "https://ea-school.com",
+    "repository": null,
+    "imageSource": "./projects/ea-school.jpg",
+    "typeId": "1709150298980",
+    "technologiesIds": ["1709150096936", "1709149960659", "1709150053689"],
+    "date": 1748984400000
+  },
+  {
+    "id": "1741989600000",
+    "name": "Treasure Hunt",
+    "description": "Landing page for the marathon organized by social organization in Brasov, Romania. Contains the path and the information and sightseeing in the city.",
+    "link": "https://treasure-hunt-intercultural-marathon.netlify.app",
+    "repository": "https://github.com/Alekseypavlov14/treasure-hunt-international-marathon-2025",
+    "imageSource": "./projects/treasure-hunt.jpg",
+    "typeId": "1709150298980",
+    "technologiesIds": ["1709150034507", "1709150186050", "1709149960659", "1709150243865", "1709150561269"],
+    "date": 1741989600000
+  },
+  {
     "id": "1739187693645",
     "name": "QR Coder",
     "description": "This website offers a free, unlimited QR Code generator that ensures permanent access to the generated content. Unlike other online tools that impose time limits on QR Code validity, this platform provides a reliable, no-fee solution where users can create QR Codes that stay active indefinitely. Designed for simplicity and accessibility, the website prioritizes an effortless user experience while maintaining the accessibility of data. This project showcases my ability to address real-world problems by providing practical, user-friendly solutions.",
