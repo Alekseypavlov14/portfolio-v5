@@ -16,7 +16,7 @@
     "description": "This package encapsulates the core logic for generating and managing QR Codes, offering an efficient and customizable solution for developers. It provides the ability to create QR Codes with permanent access to their content, free from temporary expiration or fees. The package allows for easy integration into web applications, supporting various data types and customizations, including error correction levels, size, and encoding formats. With a focus on simplicity and flexibility, it streamlines the process of generating QR Codes and ensures seamless handling of QR-related operations. Ideal for projects that require reliable, long-term QR Code functionality without relying on external services.",
     "link": "https://www.npmjs.com/package/@oleksii-pavlov/qr-codes",
     "repository": "https://github.com/Alekseypavlov14/qr-codes",
-    "imageSource": null,
+    "imageSource": "./projects/npm.png",
     "typeId": "1709150331742",
     "technologiesIds": ["1709150186050"],
     "date": 1738540800000
@@ -71,7 +71,7 @@
     "description": "Desirable is a new state management tool inspired by Zustand and Redux. It has several advantages in comparison with Zustand - it is framework-agnostic, store and reducers are defined separately what is better for readability, and it generates an object instead of hook so it can be used outside of React component if needed (react hooks are also provided so can decide whether to use or not). Desirable provides react hooks to use state in a component so you can use your state wherever you need. On the other hand, it has all the benefits of Zustand like multistores, simple logic of store updating and so on. Also, Desirable has awesome api to subscribe on specific slices of the store to prevent performance problems.",
     "link": "https://www.npmjs.com/package/@oleksii-pavlov/desirable",
     "repository": "https://github.com/Alekseypavlov14/desirable",
-    "imageSource": null,
+    "imageSource": "./projects/npm.png",
     "typeId": "1709150331742",
     "technologiesIds": ["1709150186050"],
     "date": 1697328000000
@@ -82,7 +82,7 @@
     "description": "Deep merge is a set of utils to work with object and handle problems related to their nesting. It has utils to clone, compare, merge and update objects with creating completely new objects with the same structure recursively or mutating target object if needed. The library is highly useful, I use it in a lot of projects and it works excellent.",
     "link": "https://www.npmjs.com/package/@oleksii-pavlov/deep-merge",
     "repository": "https://github.com/Alekseypavlov14/deep-merge",
-    "imageSource": null,
+    "imageSource": "./projects/npm.png",
     "typeId": "1709150331742",
     "technologiesIds": ["1709150186050"],
     "date": 1697068800000
