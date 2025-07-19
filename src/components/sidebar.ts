@@ -5,9 +5,12 @@ export function initializeSidebarNavLinks() {
   
   const links = Array.from(document.querySelectorAll('[data-sidebar-nav-link]'))
 
+  const bodyFixedClass = 'fixed'
+
   links.forEach(link => {
     link.addEventListener('click', () => {
       sidebar.classList.remove(sidebarOpenedClass)
+      document.body.classList.remove(bodyFixedClass)
     })
   })
 }
