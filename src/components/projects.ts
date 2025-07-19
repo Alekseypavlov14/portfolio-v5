@@ -1,5 +1,6 @@
 import type { Project } from '../entities/project'
 import { getProjects } from '../queries/projects'
+import { formatDate } from '../utils/date'
 
 export function displayProjects() {
   const projectsGrid = document.getElementById('projects-grid')
@@ -44,7 +45,7 @@ function renderProjectCard(project: Project) {
             ${repository}
           </div>
 
-          <div class="project-card__date">24.05.2023</div>
+          <div class="project-card__date">${formatDate(project.date)}</div>
         </div>
       </div>
     </div>
