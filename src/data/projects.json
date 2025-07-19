@@ -148,7 +148,7 @@
     "description": "The web application is for UMR Business Group. I realized the form with counting the price which depends on options, the date and the time. Also, there is a possibility of adding feedbacks.",
     "link": "http://umr-group.netlify.app",
     "repository": "https://www.github.com/Alekseypavlov14/umr-group-next",
-    "imageSource": "./projects/umr-group.png",
+    "imageSource": "./projects/umr-group.jpg",
     "typeId": "1709150298980",
     "technologiesIds": ["1709150071997", "1709150143576", "1709150186050", "1709149960659"],
     "date": 1657141200000
